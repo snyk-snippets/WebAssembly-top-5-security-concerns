@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SnykWebAssembly.Core\SnykWebAssembly.Core.csproj" />
+    <ProjectReference Include="..\SnykWebAssembly.ModuleHumanResources\SnykWebAssembly.ModuleHumanResources.csproj" />
+    <ProjectReference Include="..\SnykWebAssembly.ModuleMarketing\SnykWebAssembly.ModuleMarketing.csproj" />
+  </ItemGroup>
+
+</Project>
